@@ -1,0 +1,715 @@
+@media only screen
+and (min-device-width: 900px)
+and (max-device-width: 20000px)
+and (-webkit-min-device-pixel-ratio: 1) {
+
+h1
+{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    margin-top: 0;
+    color: #212121;
+}
+#HeroSection
+{
+    position: absolute;
+    width: 1440px;
+    height: 426px;
+    left: 0px;
+    top: 0px;
+    background-image: url('../images/herobg.png');
+}
+#SearchButtonImg
+{
+    width: 16px;
+    height: 16px;
+    background-image: url('../images/loupeButton.png');
+    position: absolute;
+    left: 12px;
+    right: 12px;
+    top: 12px;
+    bottom:12px;
+    background-repeat: no-repeat;
+}
+#SearchButton
+{
+    border: 0;
+    background: #90CAF9;
+    border-radius: 30px;
+}
+#SearchBar
+{
+    position: absolute;
+    width: 600px;
+    height: 60px;
+    left: 420px;
+    top: 30px;
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+
+#InputText
+{
+    background: white;
+    color: #9E9E9E;
+    position: absolute;
+    width: 400px;
+    height: 24px;
+    left: 20px;
+    top: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    outline: 0;
+    outline-offset: 0;
+}
+
+#SearchButton
+{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 550px;
+    right: 10px;
+    top: 10px;
+
+}
+#WeatherDetails
+{
+    position: absolute;
+    width: 600px;
+    height: 236px;
+    left: 420px;
+    top: 140px;
+    border-radius: 30px;
+    background-image: url('../images/CardBG.png');
+}
+
+#citiesGridText
+{
+    position: absolute;
+    width: 1000px;
+    height: 361px;
+    top: 496px;
+    text-align: center;
+    left: 220px;
+}
+
+#citiesGrid
+{
+    margin-top: 35px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+#CityCard1
+{
+    position: absolute;
+    border-radius: 30px;
+    width: 220px;
+    height: 220px;
+    background-image: url('../images/cityCardimg1.png');
+}
+
+#CityCard2
+{
+    position: absolute;
+    border-radius: 30px;
+    width: 220px;
+    height: 220px;
+    left: 260px;
+    background-image: url('../images/cityCardimg2.png');
+}
+
+#CityCard3
+{
+    position: absolute;
+    border-radius: 30px;
+    width: 220px;
+    height: 220px;
+    left: 520px;
+    background-image: url('../images/cityCardimg3.png');
+}
+
+#CityCard4
+{
+    position: absolute;
+    border-radius: 30px;
+    width: 220px;
+    height: 220px;
+    left: 780px;
+    background-image: url('../images/cityCardimg4.png');
+}
+
+#CityCard1Button
+{
+    position: absolute;
+    width: 200px;
+    height: 36px;
+    left: 10px;
+    top: 170px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+
+#citiesGrid p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+#CityCard2Button
+{
+    position: absolute;
+    width: 200px;
+    height: 36px;
+    left: 10px;
+    top: 170px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+#CityCard3Button
+{
+    position: absolute;
+    width: 200px;
+    height: 36px;
+    left: 10px;
+    top: 170px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+#CityCard4Button
+{
+    position: absolute;
+    width: 200px;
+    height: 36px;
+    left: 10px;
+    top: 170px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+#FAQ
+{
+    width: 1008px;
+    height: 484px;
+    top: 927px;
+    left: 225px;
+    position: absolute;
+
+}
+
+#question1_button
+{
+    position: absolute;
+    width: 1000px;
+    height: 54px;
+    background: #FAFAFA;
+    border-radius: 30px;
+    left: 20px;
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    text-align: left;
+}
+
+#question1_text
+{
+    position: absolute;
+    margin-top: 59px;
+    width: 980px;
+    height: 110px;
+    left: 20px;
+    background: #FAFAFA;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    display: none;
+}
+
+#question2_button
+{
+    margin-top: 70px;
+    position: absolute;
+    width: 1000px;
+    height: 54px;
+    background: #FAFAFA;
+    border-radius: 30px;
+    left: 20px;
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    text-align: left;
+}
+
+#question3_button
+{
+    margin-top: 140px;
+    position: absolute;
+    width: 1000px;
+    height: 54px;
+    background: #FAFAFA;
+    border-radius: 30px;
+    left: 20px;
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    text-align: left;
+}
+
+#question4_button
+{
+    margin-top: 210px;
+    position: absolute;
+    width: 1000px;
+    height: 54px;
+    background: #FAFAFA;
+    border-radius: 30px;
+    left: 20px;
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    text-align: left;
+}
+
+footer
+{
+    color: #000000;
+    position: absolute;
+    width: 1440px;
+    height: 100px;
+    left: 0px;
+    top: 1531px;
+    vertical-align: center;
+    text-align: center;
+}
+#footerText
+{
+    position: absolute;
+    width: 200px;
+    height: 24px;
+    left: 656px;
+    top: 38px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+#question1_buttonArrowDown
+{
+    position: absolute;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url('../images/arrow-down.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+    right: 19px;
+    top: 19px;
+    bottom: 19px;
+}
+#question2_buttonArrow
+{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-image: url('../images/arrow-down.png');
+    right: 19px;
+    top: 19px;
+    bottom: 19px;
+}
+#question3_buttonArrow
+{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-image: url('../images/arrow-down.png');
+    right: 19px;
+    top: 19px;
+    bottom: 19px;
+
+}
+#question4_buttonArrow
+{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-image: url('../images/arrow-down.png');
+    right: 19px;
+    top: 19px;
+    bottom: 19px;
+}
+#WeatherDetailsImage
+{
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 30px;
+}
+#CurrentWeather
+{
+    top: 20px;
+    left: 140px;
+    position: absolute;
+    height: 95px;
+    width: 151px;
+    color: black;
+    text-align: left;
+}
+#temp
+{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 15px;
+}
+#weatherNameMain
+{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 10px;
+
+}
+#weatherNameDescription
+{
+    color: #9E9E9E;
+}
+#CityAndDate
+{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    height: 61px;
+    width: 131px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    text-align: center;
+}
+#CityName
+{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
+#Date
+{
+    color: #9E9E9E;
+    font-size: 16px;
+    line-height: 24px;
+}
+#horizontalSeparator
+{
+    position: absolute;
+    width: 560px;
+    height: 0px;
+    left: 20px;
+    top: 140px;
+    border: 1px solid #BFDCE8;
+}
+#tempMin
+{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    position: absolute;
+    width: 50px;
+    height: 56px;
+    left: 129px;
+    top: 150px;
+    text-align: center;
+}
+#TempMinText
+{
+    font-size: 18px;
+    line-height: 10px;
+    color: #9E9E9E;
+}
+#TempMinValue
+{
+    color: #212121;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 15px;
+}
+#verticalSeparator
+{
+    position: absolute;
+    width: 56px;
+    height: 0px;
+    border: 1px solid #BFDCE8;
+    transform: rotate(90deg);
+    top: 180px;
+    bottom: 20px;
+    left: 290px;
+}
+#tempMax
+{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    position: absolute;
+    width: 50px;
+    height: 56px;
+    right: 130px;
+    top: 150px;
+    text-align: center;
+}
+#TempMaxText
+{
+    font-size: 18px;
+    line-height: 10px;
+    color: #9E9E9E;
+}
+#TempMaxValue
+{
+    color: #212121;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 15px;
+}
+
+#searchList
+{
+    display: none;
+    margin-top: 100px;
+    margin-left: 420px;
+    width: 600px;
+    height: 196px;
+    background: white;
+    border-radius: 30px;
+    position: absolute;
+    z-index: 999999;
+}
+
+#searchList1
+{
+    position: absolute;
+    width: 580px;
+    height: 38px;
+    left: 10px;
+    top: 10px;
+    padding-left: 20px;
+    padding-top: 15px;
+    color: black;
+    border-radius: 30px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    background: white;
+    border: 0;
+}
+
+#searchList1:hover
+{
+    position: absolute;
+    width: 580px;
+    height: 38px;
+    left: 10px;
+    top: 10px;
+    color: white;
+    background: #90CAF9;
+    border-radius: 30px;
+}
+
+#searchList2
+{
+    position: absolute;
+    width: 580px;
+    height: 38px;
+    left: 10px;
+    top: 60px;
+    padding-left: 20px;
+    padding-top: 15px;
+    color: black;
+    border-radius: 30px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    background: white;
+    border: 0;
+}
+
+#searchList2:hover
+{
+    position: absolute;
+    width: 580px;
+    height: 38px;
+    left: 10px;
+    top: 60px;
+    color: white;
+    background: #90CAF9;
+    border-radius: 30px;
+}
+
+#searchList3
+{
+    position: absolute;
+    width: 580px;
+    height: 38px;
+    left: 10px;
+    top: 110px;
+    padding-left: 20px;
+    padding-top: 15px;
+    color: black;
+    border-radius: 30px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    background: white;
+    border: 0;
+}
+
+#searchList3:hover
+{
+    position: absolute;
+    width: 580px;
+    height: 38px;
+    left: 10px;
+    top: 110px;
+    color: white;
+    background: #90CAF9;
+    border-radius: 30px;
+}
+
+#searchList4
+{
+    position: absolute;
+    width: 580px;
+    height: 38px;
+    left: 10px;
+    top: 160px;
+    padding-left: 20px;
+    padding-top: 15px;
+    color: black;
+    border-radius: 30px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    background: white;
+    border: 0;
+}
+
+#searchList4:hover
+{
+    position: absolute;
+    width: 580px;
+    height: 38px;
+    left: 10px;
+    top: 160px;
+    color: white;
+    background: #90CAF9;
+    border-radius: 30px;
+}
+
+#errorDiv
+{
+    position: absolute;
+    width: 600px;
+    height: 64px;
+    left: 420px;
+    top: 100px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    z-index: 999999;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    /*line-height: 24px;*/
+    /* identical to box height, or 150% */
+    text-align: center;
+    /* main-grey */
+    display: none;
+
+    padding-left: 7px;
+    line-height: 4em;
+    border: none;
+
+
+    color: #9E9E9E;
+}
+}

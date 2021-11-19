@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather</title>
+
+    <link rel="stylesheet" type="text/css" href="./styles/main.css">
+    <link rel="stylesheet" type="text/css" href="./styles/handheld.css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,100italic,300italic,400italic,500italic,500,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+    <div class="main-content">
+        <div id="HeroSection">
+            <div id="SearchBar">
+                    <input name="quantity" placeholder="Start typing to search..." type="text" id="InputText" onclick="searchListEvent()">
+                    <button onclick="buttonSearchEvent()" id="SearchButton">
+                        <div id="SearchButtonImg"></div>
+                    </button>
+            </div>
+            <div id="searchList" class="searchListClass">
+                <button id="searchList1" onclick="buttonWeatherSearch()"></button>
+                <button id="searchList2" onclick="buttonWeatherSearch2()"></button>
+                <button id="searchList3" onclick="buttonWeatherSearch3()"></button>
+                <button id="searchList4" onclick="buttonWeatherSearch4()"></button>
+            </div>
+
+            <div id="errorDiv">
+                City not found, please try to change your search query
+            </div>
+
+            <div id="WeatherDetails">
+                <div id="WeatherDetailsImage"></div>
+                <div id="CurrentWeather">
+                    <p id="temp">+23 &degC</p>
+                    <p id="weatherNameMain">Drizzle</p>
+                    <p id="weatherNameDescription">Light intensity drizzle</p>
+                </div>
+                <div id="CityAndDate">
+                    <div id="CityName"></div>
+                    <div id="Date"></div>
+                </div>
+
+                <hr id="horizontalSeparator"/>
+
+                <div id="tempMin">
+                    <p id="TempMinText">Min</p>
+                    <p id="TempMinValue">-33 C</p>
+                </div>
+
+                <hr id="verticalSeparator"/>
+
+                <div id="tempMax">
+                    <p id="TempMaxText">Max</p>
+                    <p id="TempMaxValue">+33 C</p>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+        <div id="citiesGridText">
+            <h1> Check the weather in most popular cities in <br>
+            the world</h1>
+
+            <div id="citiesGrid">
+
+                <div id="CityCard1">
+                    <button id="CityCard1Button" onclick="buttonWeatherNY()"> New York
+                    </button>
+                </div>
+
+                <div id="CityCard2">
+                    <button id="CityCard2Button" onclick="buttonWeatherLondon()"> London
+                    </button>
+                </div>
+
+                <div id="CityCard3">
+                    <button id="CityCard3Button" onclick="buttonWeatherDubai()"> Dubai
+                    </button>
+                </div>
+
+                <div id="CityCard4">
+                    <button id="CityCard4Button" onclick="buttonWeatherParis()"> Paris
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="FAQ">
+            <h1>Frequently Asked Questions</h1>
+
+            <div id="question1">
+
+                <button onclick="buttonShow()" id="question1_button">Question 1
+                    <div id="question1_buttonArrowDown"></div>
+                </button>
+
+                <div id="question1_text">
+                    But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system,
+                    and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No
+                    <br> one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure
+                    <br> rationally encounter consequences that are extremely painful.
+                </div>
+            </div>
+
+            <div id="question2">
+                <button onclick="" id="question2_button">Question 2 <div id="question2_buttonArrow"></div></button>
+            </div>
+
+            <div id="question3">
+                <button onclick="" id="question3_button">Question 3 <div id="question3_buttonArrow"></div></button>
+            </div>
+
+            <div id="question4">
+                <button onclick="" id="question4_button">Question 4 <div id="question4_buttonArrow"></div></button>
+            </div>
+
+
+        </div>
+    </div>
+
+    <footer>
+        <div id="footerText"></div>
+    </footer>
+
+    <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
